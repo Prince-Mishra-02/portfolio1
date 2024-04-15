@@ -1,0 +1,51 @@
+body {
+    background-color: #2d2c2c;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li {
+    list-style: none;
+}
+I a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile {
+    color: white;
+}
+.about{
+    text-align: center;
+    color: aliceblue;
+}
+
+.skills-wrapper{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.skills{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    justify-content: center;
+}
+.skill{
+    background-color: white;
+    color: hotpink;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
